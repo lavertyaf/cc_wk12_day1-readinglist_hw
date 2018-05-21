@@ -1,0 +1,19 @@
+body {
+  font-family: "Gill sans", Courier, monospace;
+  font-weight: bold;
+  margin-left: 50px;
+  background-color: #468499;
+};
+
+h1, h2 {
+  font-family: "Noto sans", sans-serif;
+}
+
+h2  {
+  text-decoration: underline;
+  padding-top: 30px;
+};
+
+label {
+  font-weight: normal;
+};

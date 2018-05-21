@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Events</title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <!-- Title - text input
+Author - text input
+Category (e.g. book, article, blog post) - radio input
+Genre and/or Topic - select -->
+    <h1 id="heading">Reading List</h1>
+    <h2>Enter book information</h2>
+
+    <form id="form">
+    <h2>Title</h2>
+    <input id="input" type="text" name="title" />
+    <p id="input-result">Please enter the title</p>
+
+    <h2>Author</h2>
+    <input id="input-first-name" type="text" placeholder="First name" name="firstName"/>
+    <input id="input-last-name" type="text" placeholder="Last name" name="lastName"/>
+    <p id="input-result">Enter author name</p>
+
+
+  <h2>Genre</h2>
+  <div>
+    <input type="radio" id="genre-horror"
+     name="genre" value="horror">
+    <label for="genreHorror">Horror</label>
+
+    <input type="radio" id="genre-crime"
+     name="genre" value="crime">
+    <label for="genreCrime">Crime</label>
+
+    <input type="radio" id="genre-romance"
+     name="genre" value="romance">
+    <label for="genreRomance">Romance</label>
+
+    <input type="radio" id="genre-history"
+     name="genre" value="history">
+    <label for="genreHistory">History</label>
+
+    <input type="radio" id="genre-autobiography"
+     name="genre" value="autobiography">
+    <label for="genreAutography">Autobiography</label>
+
+    <pre id="log">
+    </pre>
+
+  </div>
+  <p id="select-result">Select a genre</p>
+
+    <br>
+    <br>
+    <br>
+    <button type="submit" id="submit_book">Add to reading list</button>
+    <p id="form-result">You have not yet added to list</p>
+    </form>
+  </body>
+</html>
